@@ -9,7 +9,7 @@
   "scripts": {
     "start": "npx tsc && node build/index.js",
     "dev": "nodemon",
-    "test": "jest"
+    "test": "jest --setupFiles dotenv/config"
   },
   "repository": {
     "type": "git",
