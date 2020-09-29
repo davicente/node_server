@@ -31,4 +31,6 @@ export const COUNTRIES_LIST: Country[] = [
     { "country": "United Kingdom", "code": "GB", "vat": 20 }
 ];
 
-export const ORDER_VALUES = { 'ASC': 'ASC', 'DESC': 'DESC' };
+export const ORDER_VALUES = ['asc', 'desc'];
+export const ORDER_ASC = 'asc';
+export const ORDER_DESC = 'desc';
