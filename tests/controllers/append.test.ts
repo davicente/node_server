@@ -18,7 +18,7 @@ describe('Append tests', () => {
 
     it('Append only start', () => {
         const result = appendController.append('hello');
-        expect(result).to.have.deep.members(['hello', ...simpleArray, 'bye']);
+        expect(result).to.have.deep.members(['hello', ...simpleArray]);
     });
 
     it('Append only end', () => {
