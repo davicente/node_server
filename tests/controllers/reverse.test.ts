@@ -23,7 +23,7 @@ describe('Reverse tests', () => {
     });
 
     it('Reverse long string', () => {
-        const reversed = reverseController.reverse('qwertyuioàsdfghjklzxcvbnm');
+        const reversed = reverseController.reverse('qwertyuiopasdfghjklzxcvbnm');
         expect(reversed).to.equal('mnbvcxzlkjhgfdsApOIUytrEwq');
     });
 

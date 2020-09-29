@@ -34,3 +34,5 @@ export const COUNTRIES_LIST: Country[] = [
 export const ORDER_VALUES = ['asc', 'desc'];
 export const ORDER_ASC = 'asc';
 export const ORDER_DESC = 'desc';
+
+export const VOWELS = ['a', 'e', 'i', 'o', 'u'];
